@@ -1,0 +1,9 @@
+Uncaught (in promise) TypeError: Cannot read property 'x' of undefined
+    at Object.Vector.add (matter.js:7626)
+    at Object.Constraint.create (matter.js:3513)
+    at new Chain (chain.js:11)
+    at setup (sketch.js:21)
+    at _setup (p5.min.js:3)
+    at _start (p5.min.js:3)
+    at new _ (p5.min.js:3)
+    at p5.min.js:3
