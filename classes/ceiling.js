@@ -1,16 +1,16 @@
 class Ceiling{
     constructor(x,y,width,height){
         var staticOption = {isStatic: true};
-        this.ground = Bodies.rectangle(x,y,width,height,staticOption);
-        World.add(world,this.ground);
+        this.body = Bodies.rectangle(x,y,width,height,staticOption);
+        World.add(world,this.body);
 
 
         this.width = width;
         this.height = height;
-        this.color = "gray";
+        this.color = "brown";
     }
     display(){
-        var position = this.ground.position
+        var position = this.body.position
 
 
         rectMode(CENTER);
